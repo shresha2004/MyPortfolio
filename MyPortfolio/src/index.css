@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backgroundColor{
+  background-color: #2C2C2C !important;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(91deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+/* navbar */
+.navbar{
+  position:fixed;
+  z-index: 1000;
+  top: 0;
+}
+/*Text animation*/
+
+/* Main wrapper */
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Static text styles */
+.wrapper .static-txt {
+  font-size: 2.25rem;
+  line-height: 2.5rem; 
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+/* Dynamic text container */
+.wrapper .dynamic-txts {
+ 
+  height: 90px;
+  line-height: 2.5rem;
+  overflow: hidden;
+}
+
+/* Dynamic text styles */
+.dynamic-txts li {
+  list-style: none;
+  color: #16a34a;
+  font-size: 2.25rem;
+  line-height: 2.5rem; 
+  font-weight: 700;
+  position: relative;
+  top: 0;
+
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+
+/* Typing effect styles */
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+  background: #2C2C2C;
+  border-left: 4px solid #16a34a;
+  
+  animation: typing 3s steps(19) infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+  40%, 60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+
+.profile-border-animation {
+  border: 4px solid transparent; /* Invisible initial border */
+  border-radius: 50%;
+  background: conic-gradient(
+    #16a34a,
+    transparent 25%,
+    #16a34a 50%,
+    transparent 75%,
+    #16a34a
+  );
+  animation: moveBorder 3s linear infinite;
+}
+
+@keyframes moveBorder {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Social Media Icons */
+.social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Shiny Button Effect */
+.shiny-button {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.shiny-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(193, 172, 172, 0.6), transparent);
+  transform: skewX(-30deg);
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/*Social media icons*/
+.icon-border {
+  border: 2px solid #22c55e; /* Green border */
+  border-radius: 50%;
+  padding: 4px; /* Add some padding inside the border */
+  display: inline-block; /* Ensures the border wraps around the icon */
+}
+
