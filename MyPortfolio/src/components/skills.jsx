@@ -78,7 +78,7 @@ const Skills=()=>{
       </span>
       <span className="flex items-center text-center gap-2   px-4 py-2 rounded-md font-medium  border border-green-600">
       <img
-        src=".\src\assets\expressJSLogo.png"
+        src="https://res.cloudinary.com/dtyu88isr/image/upload/v1736751254/MyPortfolio/lvwhssixpy2mrzhjuvjg.png"
         alt="Logo"
         className="w-6 h-6 rounded-full"
       />  <span className="text-zinc-300">ExpressJS</span>
