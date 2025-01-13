@@ -112,7 +112,7 @@ const Skills=()=>{
     <div className="flex flex-wrap gap-4 grid grid-cols-2">
       <span className="flex items-center text-center gap-2   px-4 py-2 rounded-md font-medium  border border-green-600">
       <img
-        src=".\src\assets\Git-Icon-1788C.png"
+        src="https://res.cloudinary.com/dtyu88isr/image/upload/v1736751255/MyPortfolio/x7q3bvonlai0t3kqkw8m.png"
         alt="Cloudinary"
         className="w-5 h-5"
       />  <span className="text-zinc-300"> Git </span>
@@ -122,14 +122,14 @@ const Skills=()=>{
       </span>
       <span className="flex items-center gap-2 bg-[#2C2C2C]  px-4 py-2 rounded-md font-medium border border-green-600 ">
       <img
-        src=".\src\assets\visual-studio-code-1.svg"
+        src="https://res.cloudinary.com/dtyu88isr/image/upload/v1736751257/MyPortfolio/lpizbzvvvx6nlnuex9hn.svg"
         alt="Cloudinary"
         className="w-5 h-5"
       /> <span className="text-zinc-300">VS Code </span>
       </span>
       <span className="flex items-center gap-2  px-4 py-2 rounded-md font-medium border border-green-600">
         <img
-        src=".\src\assets\EclipseIDE.png"
+        src="https://res.cloudinary.com/dtyu88isr/image/upload/v1736751254/MyPortfolio/yezqu3oa1pm7zodj303i.png"
         alt="Image"
         className="w-5 h-5 rounded-full"/> <span className="text-zinc-300">Eclipse</span>
       </span>
@@ -137,7 +137,7 @@ const Skills=()=>{
       
       <span className="flex justify-center text-center items-center max-w-40  gap-4 bg-[#2C2C2C] mt-4 px-4 py-2 rounded-md font-medium border  mx-auto border-green-600">
       <img
-        src=".\src\assets\PostmanLogo.png"
+        src="https://res.cloudinary.com/dtyu88isr/image/upload/v1736751254/MyPortfolio/yezqu3oa1pm7zodj303i.png"
         alt="Image"
         className="w-5 h-5 rounded-full"/> <span className="text-zinc-300">Postman</span>
       </span>

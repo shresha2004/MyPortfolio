@@ -28,7 +28,7 @@ const Education = () => {
         <div className="ml-10 border border-green-600 rounded-lg p-6 bg-zinc-900 shadow-md shadow-green-600 w-full">
             <div className="flex items-center space-x-4 mb-4">
               <img
-                src="./src/assets/NmitLogo.jpg"
+                src="https://res.cloudinary.com/dtyu88isr/image/upload/v1736751256/MyPortfolio/lrpevj601yebpbh3rdj9.jpg"
                 alt="Nitte Meenakshi Logo"
                 className="w-12 h-12 rounded"
               />
@@ -65,7 +65,7 @@ const Education = () => {
           <div className="ml-10 border border-green-600 rounded-lg p-6 bg-zinc-900 shadow-md shadow-green-600 w-full z-10">
             <div className="flex items-center space-x-4 mb-4">
               <img
-                src="./src/assets/SVPUClogo.png"
+                src="https://res.cloudinary.com/dtyu88isr/image/upload/v1736751257/MyPortfolio/ozca0dawmvyzbdzsz9zc.png"
                 alt="SJM Logo"
                 className="w-12 h-12 rounded-md"
               />
@@ -100,7 +100,7 @@ const Education = () => {
           <div className="ml-10 border border-green-600 rounded-lg p-6 bg-zinc-900 shadow-md shadow-green-600 w-full z-10">
             <div className="flex items-center space-x-4 mb-4">
               <img
-                src=".\src\assets\GPUCLogo.jpg"
+                src="https://res.cloudinary.com/dtyu88isr/image/upload/v1736751255/MyPortfolio/fwugy1iehy46qvulyuye.jpg"
                 alt="SJM Logo"
                 className="w-12 h-12 rounded-md"
               />
