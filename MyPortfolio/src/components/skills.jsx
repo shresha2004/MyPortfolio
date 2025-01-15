@@ -108,7 +108,7 @@ const Skills=()=>{
       {/*Others */}
       <div className="justify-center text-center mt-10 mb-6">
   <div className=" p-6 rounded-lg  border border-green-600 shadow-2xl shadow-green-600 w-full sm:w-96 mx-auto">
-    <h3 className="text-xl text-center font-bold text-white mb-4">Others</h3>
+    <h3 className="text-xl text-center font-bold text-white mb-4">Configeration Tools</h3>
     <div className="flex flex-wrap gap-4 grid grid-cols-2">
       <span className="flex items-center text-center gap-2   px-4 py-2 rounded-md font-medium  border border-green-600">
       <img

@@ -54,7 +54,7 @@ function Project() {
             title: "Learning Assessment of OE:RC Plane",
             date:"December 2024",
             description: "Built an RC plane as part of a learning assessment for the UAV subject in the Aero department, showcasing practical aerodynamics.",
-            technologies: ["Aerodynamics", "Wing", "Servo motor", "Diviation","Reciever", "Propeller", "Battery"],
+            technologies: ["Aerodynamics", "Wing", "Servo motor", "Diviation","Receiver", "Propeller", "Battery"],
             images: [
                 "https://res.cloudinary.com/dtyu88isr/image/upload/v1736745402/culoy8iwz7l0hotsr60l.jpg",
                 "https://res.cloudinary.com/dtyu88isr/image/upload/v1736329990/ifr700g2pzsskszdefqu.jpg",
