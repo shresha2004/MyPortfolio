@@ -88,7 +88,7 @@ const Skills=()=>{
         src="https://res.cloudinary.com/dtyu88isr/image/upload/v1736751254/MyPortfolio/lvwhssixpy2mrzhjuvjg.png"
         alt="Logo"
         className="w-6 h-6 rounded-full"
-      />  <span className="text-zinc-300">ExpressJS</span>
+      />  
       <span className="text-zinc-300">ExpressJS</span>
       </span>
       
