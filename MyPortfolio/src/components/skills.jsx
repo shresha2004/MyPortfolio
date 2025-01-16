@@ -56,12 +56,19 @@ const Skills=()=>{
       <span className="flex items-center gap-2  px-4 py-2 rounded-md font-medium border border-green-600">
         <FaBootstrap size={20} className="text-blue-600" /> <span className="text-zinc-300">Bootstrap</span>
       </span>
+      <span className="flex items-center gap-2 bg-[#2C2C2C]  px-4 py-2 rounded-md font-medium border border-green-600 ">
+        <SiTailwindcss size={20} className="text-blue-300" /> <span className="text-zinc-300">Tailwind CSS </span>
+      </span>
+      <span className="flex items-center gap-2  px-4 py-2 rounded-md font-medium border border-green-600">
+      <img
+        src="https://res.cloudinary.com/dtyu88isr/image/upload/v1737035494/MyPortfolio/fbakcoq5fqjxbmdn4um3.webp"
+        alt="Logo"
+        className="w-6 h-6 rounded-full"
+      />  <span className="text-zinc-300">Java FX</span>
+      </span>
       </div>
       
-      <span className="flex  justify-center text-center items-center max-w-40 mx-auto gap-2 mt-4 px-4 py-2 rounded-md font-medium border  border-green-600">
-  <SiTailwindcss size={20} className="text-blue-400" /> 
-  <span className="text-zinc-300">Tailwind CSS</span>
-</span>
+   
 
      
     
@@ -82,6 +89,7 @@ const Skills=()=>{
         alt="Logo"
         className="w-6 h-6 rounded-full"
       />  <span className="text-zinc-300">ExpressJS</span>
+      <span className="text-zinc-300">ExpressJS</span>
       </span>
       
       <span className="flex items-center gap-2 bg-[#2C2C2C]  px-4 py-2 rounded-md font-medium border border-green-600 ">
