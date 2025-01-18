@@ -3,6 +3,7 @@ import React from 'react';
 const Education = () => {
   return (
     <>
+    
       <h1 className="text-3xl font-bold text-center justify-center text-white mt-10 underline underline-offset-2">Education</h1>
       <div className="flex items-center justify-center mt-3">
         <div className="text-white text-center font-semibold max-w-2xl mx-auto">
@@ -21,7 +22,6 @@ const Education = () => {
         <div className="absolute left-[1.25rem] top-0 animate-bounce">
           <div className="w-3 h-3 bg-green-600 rotate-45"></div>
         </div>
-
         {/* First Card */}
         <div className="relative flex items-center space-x-4 mb-10">
         <div className="absolute w-5 h-5 border border-green-600 rounded-full -left-3"></div>
@@ -122,6 +122,7 @@ const Education = () => {
           </div>
         </div>
       </div>
+     
     </>
   );
 };
