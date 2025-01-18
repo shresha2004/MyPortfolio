@@ -65,10 +65,11 @@ const Contact = () => {
   return (
     <div className="text-white py-12 px-6">
       <h2 className="text-3xl font-bold text-center mb-8 underline underline-offset-2">Get in Touch</h2>
-      <form
-        onSubmit={handleSubmit}
-        className="bg-zinc-800 p-6 rounded-lg shadow-lg max-w-lg mx-auto border border-green-600"
-      >
+              <form
+          onSubmit={handleSubmit}
+          className="bg-zinc-800 p-6 rounded-lg shadow-lg max-w-3xl mx-auto border border-green-600"
+        >
+
         <div className="mb-4">
           <label htmlFor="name" className="block text-sm font-medium mb-1">
             Name:

@@ -34,27 +34,27 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col items-center">
         {/* Navbar */}
         <Navbar scrollToSection={scrollToSection} />
 
         {/* Sections */}
-        <div ref={aboutRef} className="flex-row ml-10 mt-16" id="about">
+        <div ref={aboutRef} className="flex-row items-center mt-10" id="about">
           <About />
         </div>
-        <div ref={projectsRef} className="flex-row ml-10 mt-8" id="projects">
+        <div ref={projectsRef} className="flex-row items-center mt-8" id="projects">
           <Project />
         </div>
-        <div ref={skillsRef} className="flex-row ml-10 mt-8" id="skills">
+        <div ref={skillsRef} className="flex-row items-center mt-8" id="skills">
           <Skills />
         </div>
-        <div ref={educationRef} className="flex-row ml-10 mt-8" id="education">
+        <div ref={educationRef} className="flex-row items-center mt-8" id="education">
           <Education />
         </div>
-        <div ref={intrestRef} className="flex-row ml-10 mt-8" id="intrest">
+        <div ref={intrestRef} className="flex-row items-center mt-8" id="intrest">
           <IntrestHobbies />
         </div>
-        <div ref={contactRef} className="flex-row ml-10 mt-8" id="contact">
+        <div ref={contactRef} className="flex-row  mt-8 lg:w-5/12" id="contact">
           <Contact />
         </div>
         <Footer />

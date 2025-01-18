@@ -19,7 +19,7 @@ function Project() {
                 "https://res.cloudinary.com/dtyu88isr/image/upload/v1736264430/TradingJournal/svqcqs9kbpxewrvdypep.png",
             ],
             appLink: "https://trade-tracker-r4xv.vercel.app/",
-            codeLink: "https://github.com/username/trade-tracker",
+            codeLink: "https://github.com/shresha2004/Trade_Tracker",
         },
         {
             id: 2,
@@ -74,7 +74,7 @@ function Project() {
                 Here are a few highlights.
             </p>
             <div className="justify-center text-center">
-            <div className=" ml-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 mr-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 p-6 w-full">
                 {projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}
