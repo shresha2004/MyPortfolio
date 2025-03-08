@@ -19,6 +19,20 @@ function Project() {
         },
         {
             id: 2,
+            title: "Fare Well Cup",
+            date: "Feb 2025 - March 2024",
+            description: "A dynamic platform for the Farewell Cup 2025 cricket tournament, where hostelites register as players and captains bid in a real-time, point-based auction to build their teams. Built with the MERN stack, it ensures a seamless and engaging experience for all participants.s",
+            technologies: ["HTML", "CSS", "JavaScript", "MongoDB", "ExpressJS", "ReactJs", "NodeJS", "Cloudinary","Tailwind CSS"],
+            images: [
+                "https://res.cloudinary.com/dtyu88isr/image/upload/v1741452029/MyPortfolio/sot7wg5nx5vqhqqrkueh.png",
+                "https://res.cloudinary.com/dtyu88isr/image/upload/v1741452024/MyPortfolio/cjiejbtaa9qvb6n5f5u9.png",
+                "https://res.cloudinary.com/dtyu88isr/image/upload/v1741452360/MyPortfolio/z2o7jw6avpiibdqqcxuz.jpg",
+            ],
+            appLink: "https://farewell-cup-frontend.vercel.app/",
+            codeLink: "https://github.com/shresha2004/FarewellCup",
+        },
+        {
+            id: 3,
             title: "Yelp Camp",
             date: "October 2023 - December 2023",
             description: "Developed a full-stack web app which has CRUD based functions.Passport.js authentication, and image uploads via Cloudinary. Deployed on Render with a responsive UI.",
@@ -32,7 +46,7 @@ function Project() {
             codeLink: "https://github.com/shresha2004/YELPCAMP",
         },
         {
-            id: 3,
+            id: 4,
             title: "GDG Events management app",
             date: "November 2024",
             description: "A streamlined GDSC event management application to create, organize, and track events efficiently, featuring real-time updates, and attendee management.",
@@ -46,7 +60,7 @@ function Project() {
             codeLink: "https://github.com/shresha2004/EventManagementApp",
         },
         {
-            id: 4,
+            id: 5,
             title: "Learning Assessment of OE:RC Plane",
             date: "December 2024",
             description: "Built an RC plane as part of a learning assessment for the UAV subject in the Aero department, showcasing practical aerodynamics.",

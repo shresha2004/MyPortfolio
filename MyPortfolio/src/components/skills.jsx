@@ -141,6 +141,19 @@ const Skills=()=>{
         alt="Image"
         className="w-5 h-5 rounded-full"/> <span className="text-zinc-300">Eclipse</span>
       </span>
+      <span className="flex items-center  bg-[#2C2C2C]  px-4 py-2 rounded-md font-medium border border-green-600 ">
+      <img
+        src="https://res.cloudinary.com/dtyu88isr/image/upload/v1737270552/MyPortfolio/f2hlewynrrc9udebncam.png"
+        alt="Jupyter Notebook Logo"
+        className="w-5 h-7"
+      /> <span className="text-zinc-300">Jupyter Notebook</span>
+      </span>
+      <span className="flex items-center gap-1  px-4 py-2 rounded-md font-medium border border-green-600">
+        <img
+        src="https://res.cloudinary.com/dtyu88isr/image/upload/v1737270923/MyPortfolio/cmxg4aqra8lpcgqwreds.png"
+        alt="Image"
+        className="w-5 h-5 rounded-md"/> <span className="text-zinc-300">Google Colab</span>
+      </span>
       </div>
       
       <span className="flex justify-center text-center items-center max-w-40  gap-4 bg-[#2C2C2C] mt-4 px-4 py-2 rounded-md font-medium border  mx-auto border-green-600">
