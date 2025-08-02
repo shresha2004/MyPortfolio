@@ -63,7 +63,7 @@ function Project() {
             id: 5,
             title: "Leet Log",
             date: "June 2025",
-            description: "DSA Problem Viewer is a React web app that fetches Java code files from a GitHub repository folder and displays them beautifully. Users can click on any file name to view its code with syntax highlighting.",
+            description: "Leet-log is a React web app that fetches Java code files from a GitHub repository folder and displays them beautifully. Users can click on any file name to view its code with syntax highlighting.",
             technologies: ["HTML", "CSS", "JavaScript", "ReactJS","MongoDB", "Cloudinary"],
             images: [
                 "https://res.cloudinary.com/dtyu88isr/image/upload/v1754118670/ugw2643lqphprv9a8nbu.png",
