@@ -7,6 +7,7 @@ import Education from './components/education';
 import IntrestHobbies from './components/intrest&hobbies';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import Certifications from './components/certifications';
 import './App.css';
 
 function App() {
@@ -47,6 +48,9 @@ function App() {
         </div>
         <div ref={skillsRef} className="flex-row items-center mt-8" id="skills">
           <Skills />
+        </div>
+        <div ref={skillsRef} className="flex-row items-center mt-8" id="skills">
+          <Certifications />
         </div>
         <div ref={educationRef} className="flex-row items-center mt-8" id="education">
           <Education />
