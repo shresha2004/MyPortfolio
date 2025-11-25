@@ -54,7 +54,7 @@ function About() {
           {/* Resume Button */}
           <div className="mt-6 flex flex-wrap justify-center lg:justify-start w-full space-y-4 lg:space-y-2">
             <a
-              href="/path-to-resume.pdf"
+              href="https://drive.google.com/file/d/1I3QOaWke8UbX32dOggD8HQTCD-2uj5FX/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="shiny-button bg-gradient-to-r from-green-500 via-green-600 to-green-700 text-white font-bold py-4 px-8 rounded-full text-2xl shadow-lg transition-all relative"
